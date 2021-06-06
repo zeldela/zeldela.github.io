@@ -6,9 +6,11 @@
    --base-color: #000;
    --border: dashed 1px rgba(219, 219, 219, 0.9);
    --selection-background: rgba(219, 219, 219, 0.99);
+   --accent-color: rgba(150, 150, 150, 0.99);
    --selection-text: #000;
    --background-color: #FFFFFF;
    --text-color: var(--base-color);
+   --accent-text-color: var(--accent-color);
    --placeholder-color: var(--base-color);
    --link-color: var(--base-color);
    --code-color-1: #aaaaaa;
@@ -80,14 +82,19 @@
  p {
    word-wrap: normal;
    word-break: normal;
-   white-space: normal; }
+   white-space: normal; 
+   line-height: 170%;}
  
  footer {
-   color: var(--text-color);
+   color: var(--accent-text-color);
    border-top: var(--border);
    margin: 20px auto 15px;
    padding-top: 10px;
    text-align: right; }
+
+ footer a {
+   text-decoration: underline;
+   color: var(--accent-text-color);}
  
  header {
    margin-top: 25px;
