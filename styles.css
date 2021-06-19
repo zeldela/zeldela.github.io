@@ -1,0 +1,59 @@
+/* defining variables */ 
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+:root {
+    --background-color: rgba(0, 0, 0, 0);
+    --text-body-color: rgba(60, 60, 60, 1);
+    --text-sub-color: rgba(120, 120, 120, 1);
+    --border-default: 1px solid rgba(200, 200, 200, 1);
+
+}
+
+body {
+    font-family: 'DM Mono', monospace;
+    color: var(--text-body-color);
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 13px;
+    text-align: justify;
+}
+
+a {
+    color: var(--text-body-color);
+}
+
+footer {
+    font-size: 11px;
+    color: var(--text-sub-color);
+    text-align: left;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto; }
+
+.menu ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: var(--border-default);
+    list-style-type: none;
+    text-align: right; }
+
+.menu ul li {
+    display: inline;
+    margin-left: 10px; 
+    padding: 0px;
+}
+
+.menu ul li a {
+    color: var(--text-sub-color);
+    text-decoration: none;
+    font-size: 11px;
+}
