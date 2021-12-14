@@ -2,126 +2,84 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
   font-family: "Arial", sans-serif;
   font-size: 14px;
-  color: #000000;
-}
-
-h1 {
-  font-family: "Linux Libertine", "Georgia", "Times", serif;
-  font-size: 1.8em;
-  font-weight: 400;
-  border-bottom: 1px solid #a2a9b1;
-}
-
-h2 {
-  font-family: "Arial", sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  border-bottom: none;
   color: black;
+  padding: 0;
+  margin: 0;
 }
 
-a { color: #3975DF; text-decoration: none; }
-
-a:hover {
-  color: #3975DF;
-  font-size: inherit;
-  font-weight: inherit;
-  text-decoration: underline;
+section {
+  width: 65%;
+  margin-top: 40px;
+  padding: auto;
 }
 
-header table a:hover {
-  color: #3975DF;
-  font-size: 100%;
-  font-weight: normal;
-  text-decoration: underline;
+footer {
+  width: 15%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  width: auto;
+}
+
+header div {
+  background-image: url("https://images.metmuseum.org/CRDImages/gr/original/DP138761.jpg");
+  background-size: 260%;
+  background-repeat: no-repeat;
+  background-position: 45% 20%;
+  color: black;
+  height: 100%;
+  left: 0;
 }
 
 header {
-  float: right;
-  position: static;
-  border: 1px solid #a2a9b1;
-  border-spacing: 3px;
-  margin: 0.5em 0 0.5em 1em;
-  padding: 0.2em;
-  font: "Arial";
+  font-family: "Space Mono", monospace;
+  color: black;
   font-size: 88%;
+  width: 30%;
+  height: 100%;
 }
 
 header h1 {
-  color: #000000;
+  font-size: 100%;
   font-weight: bold;
-  font-size: 125%;
   text-align: center;
-  padding: 0.2em;
-  margin: 0.2em;
-  border-bottom: none;
-  font-style: "sans-serif";
-  font-family: "Arial";
+  padding: 1em;
+  position: relative;
+  top: 10%;
+  width: 50%;
+  background: darkslategrey;
+  color: white;
+  margin: auto;
 }
 
-header h1 a {color: #000000}
-
-header p {padding: 0.2em; margin: 0.2em}
-
-header table {
-  padding: 0.2em;
-  border-collapse: separate;
-  border-spacing: 0px 3px;
-  table-layout: auto;
-  line-height: 1.5em;
-  margin-bottom: 0;
+header h1 a {
+  font-family: inherit;
+  font-size: 200%;
+  font-weight: normal;
+  font-style: italic;
+  color: inherit;
 }
 
-header tr {
+header h1 a:hover {
+  font-weight: inherit;
+  color: inherit;
+  text-decoration: underline;
+}
+
+header p {
+  position: relative;
+  display: grid;
+  top: 10%;
+  margin: auto;
+  margin-top: 1em;
+  padding: 1em;
+  width: 50%;
   background: white;
 }
-
-header table tbody tr th {
-  text-align: center;
-  color: black;
-  border: white;
-  font-weight: bold;
-  padding: 0.2em;
-}
-
-header th a {
-  color: #3975DF
-}
-
-header table tbody tr td {
-  text-align: left;
-  border: white;
-  color: black;
-  padding: 0.2em;
-}
-
-header table div {
-  margin: 0;
-  padding: 0;
-}
-
-header li {
-  display: inline;
-}
-
-header li::after {
-  content: " · ";
-  font-weight: bold;
-}
-
-.lastli::after {
-  content: "";
-}
-
-header ul {
-  display: block;
-  list-style-type: disc;
-  margin: 0;
-  padding: 0;
-}
-
-section {float: left; border: 0;}

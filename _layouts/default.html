@@ -15,70 +15,16 @@
   <body>
     <div class="wrapper">
       <header>
+        <div class="header-wrapper">
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <table>
-          <tbody>
-            <tr>
-              <th colspan="2" style="background:lavender">Background</th>
-            </tr>
-            <tr>
-              <th style="text-align:left">Location</th>
-              <td>Atlanta, Georgia</td>
-            </tr>
-            <tr>
-              <th style="text-align:left">Occupation</th>
-              <td>Data analyst</td>
-            </tr>
-            <tr>
-              <th style="text-align:left">Alma mater</th>
-              <td>University of Florida (BS)</td>
-            </tr>
-            <tr>
-              <th style="text-align:left; vertical-align: top">Professional interests</th>
-              <td style="text-align:left">
-                <div>
-                  <ul>
-                    <li>Civic tech</li>
-                    <li>public data and disinformation</li>
-                    <li>visualization</li>
-                    <li>statistics</li>
-                    <li class="lastli">cybersecurity</li>
-                  </ul>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <th style="text-align:left">Github</th>
-              <td><a href="https://github.com/zeldela">www.github.com/zeldela</a></td>
-            </tr>
-            <tr>
-              <th colspan="2" style="background:lavender">A bit about me</th>
-            </tr>
-            <tr>
-              <th style="text-align:left; vertical-align: top">Likes</th>
-              <td style="text-align:left">
-                <div>
-                  <ul>
-                    <li>Wikipedia</li>
-                    <li>building things</li>
-                    <li>finding cool data</li>
-                    <li>corgis</li>
-                    <li class="lastli">ancient history</li>
-                  </ul>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <th style="text-align:left; vertical-align: top">Known for</th>
-              <td style="text-align:left">Evangelizing video games</td>
-            </tr>
-          </tbody>
-        </table>
+        <p>ABOUT ME</p>
+
+
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -86,6 +32,7 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+      </div>
       </header>
       <section>
 
