@@ -18,17 +18,11 @@ section {
   padding: auto;
 }
 
-footer {
-  width: 15%;
-  padding: 0;
-  margin: 0;
-}
-
 .wrapper {
   width: auto;
 }
 
-header div {
+#background {
   background-image: url("https://images.metmuseum.org/CRDImages/gr/original/DP138761.jpg");
   background-size: 260%;
   background-repeat: no-repeat;
@@ -73,13 +67,90 @@ header h1 a:hover {
   text-decoration: underline;
 }
 
-header p {
+#header1 {
   position: relative;
   display: grid;
   top: 10%;
   margin: auto;
-  margin-top: 1em;
-  padding: 1em;
+  margin-top: 0.75em;
+  padding: 0.3em 1em 0.3em 1em;
   width: 50%;
   background: white;
+  font-size: 110%;
+  font-family:'Arial';
+  color: white;
+  background-color: gray;
+}
+
+#header2 {
+  position: relative;
+  display: grid;
+  top: 10%;
+  margin: auto;
+  margin-top: 0.75em;
+  padding: 0.3em 1em 0.3em 1em;
+  width: 50%;
+  background: white;
+  font-size: 110%;
+  font-family:'Arial';
+  color: white;
+  background-color: gray;
+}
+
+#header2:hover {
+  background-color: white;
+  color: gray;
+}
+
+header div p {
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+#bio {
+  font-size: 125%;
+  padding: 0.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: inherit;
+  color: inherit;
+  font-weight: normal;
+  background: inherit;
+}
+
+#bio:hover {
+  color: inherit;
+  background: inherit;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+#footer {
+  margin: 0;
+  width: 30%;
+  padding: 0;
+  left: 0;
+}
+
+footer {
+  font-family: "Space Mono", monospace;
+  color: white;
+  font-size: 88%;
+  text-align: justify;
+  margin: auto;
+  padding: 1em;
+  bottom: 0;
+}
+
+footer a {
+  color: white;
+  background: gray;
+  padding: 0.1em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+footer a:hover {
+  color: gray;
+  background: white
 }
