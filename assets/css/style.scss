@@ -8,149 +8,132 @@ body {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   color: black;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+}
+
+body a {
+  font-weight: normal;
+  color: gray;
+}
+
+body a:hover {
+  font-weight: normal;
+  color: gray;
+  text-decoration: underline;
 }
 
 section {
-  width: 65%;
-  margin-top: 40px;
-  padding: auto;
-}
-
-.wrapper {
-  width: auto;
-}
-
-#background {
-  background-image: url("https://images.metmuseum.org/CRDImages/gr/original/DP138761.jpg");
-  background-size: 260%;
-  background-repeat: no-repeat;
-  background-position: 45% 20%;
-  color: black;
-  height: 100%;
-  left: 0;
-}
-
-header {
-  font-family: "Space Mono", monospace;
-  color: black;
-  font-size: 88%;
-  width: 30%;
-  height: 100%;
-}
-
-header h1 {
-  font-size: 100%;
-  font-weight: bold;
-  text-align: center;
-  padding: 1em;
+  float: none;
+  left: 35%;
+  top: 0;
+  margin: 30px;
+  padding: 10px;
+  width: 500px;
   position: relative;
-  top: 10%;
-  width: 50%;
-  background: darkslategrey;
-  color: white;
-  margin: auto;
 }
 
-header h1 a {
-  font-family: inherit;
+.post {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  color: black;
+  text-align: justify;
+}
+
+.post h1 {
+  font-family: "Space Mono", monospace;
   font-size: 200%;
-  font-weight: normal;
-  font-style: italic;
-  color: inherit;
+  left: 0;
+  text-align: left;
 }
 
-header h1 a:hover {
-  font-weight: inherit;
-  color: inherit;
+.sidebar {
+  margin: auto;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url("https://images.metmuseum.org/CRDImages/gr/original/DP165161.jpg");
+  background-position: 65% 15%;
+  background-size: 400%;
+  background-repeat: no-repeat;
+  font-family: "Space Mono", monospace;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.sidebar h1 {
+  font-style: italic;
+  font-size: 100%;
+  font-weight: normal;
+  color: white;
+  padding: 10px;
+  margin: 30px auto 10px auto;
+  text-align: center;
+  width: 50%;
+  background-color: darkslategrey;
+}
+
+.sidebar h1 a {
+  color: white;
+}
+
+.sidebar h1 a:hover {
   text-decoration: underline;
 }
 
-#header1 {
-  position: relative;
-  display: grid;
-  top: 10%;
-  margin: auto;
-  margin-top: 0.75em;
-  padding: 0.3em 1em 0.3em 1em;
+.sidebar h2 {
+  font-family: "Space Mono", sans-serif;
+  font-size: 50%;
+  font-weight: normal;
+  color: black;
+  padding: 10px;
+  margin: 10px auto 10px auto;
+  text-align: center;
   width: 50%;
-  background: white;
-  font-size: 110%;
-  font-family:'Arial';
-  color: white;
-  background-color: gray;
+  background-color: white;
 }
 
-#header2 {
-  position: relative;
-  display: grid;
-  top: 10%;
-  margin: auto;
-  margin-top: 0.75em;
-  padding: 0.3em 1em 0.3em 1em;
-  width: 50%;
-  background: white;
-  font-size: 110%;
-  font-family:'Arial';
-  color: white;
-  background-color: gray;
+.sidebar h2 a {
+  color: black;
 }
 
-#header2:hover {
+.sidebar h2 a:hover {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.sidebar h3 {
+  font-family: "Space Mono", sans-serif;
+  font-size: 45%;
+  font-weight: normal;
+  line-height: 150%;
+  color: black;
+  padding: 10px;
+  margin: 10px auto 10px auto;
+  text-align: center;
+  width: 50%;
+  background-color: white;
+}
+
+.sidebar footer {
+  font-size: 40%;
+  bottom: 0;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  padding: 2px;
+  color: white;
+  position: fixed;
+}
+
+.sidebar footer a {
+  background-color: gray;
+  color: white;
+}
+
+.sidebar footer a:hover {
   background-color: white;
   color: gray;
-}
-
-header div p {
-  padding-bottom: 0em;
-  margin-bottom: 0em;
-}
-
-#bio {
-  font-size: 125%;
-  padding: 0.5em;
-  padding-top: 0;
-  padding-bottom: 0;
-  font-size: inherit;
-  color: inherit;
   font-weight: normal;
-  background: inherit;
 }
 
-#bio:hover {
-  color: inherit;
-  background: inherit;
-  font-weight: normal;
-  text-decoration: underline;
-}
-
-#footer {
-  margin: 0;
-  width: 30%;
-  padding: 0;
-  left: 0;
-}
-
-footer {
-  font-family: "Space Mono", monospace;
-  color: white;
-  font-size: 88%;
-  text-align: justify;
-  margin: auto;
-  padding: 1em;
-  bottom: 0;
-}
-
-footer a {
-  color: white;
-  background: gray;
-  padding: 0.1em;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-footer a:hover {
-  color: gray;
-  background: white
-}
